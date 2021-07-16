@@ -1,0 +1,25 @@
+Forhåmdskrav:
+
+- Text editor (VS Code, Atom, Sublime Text, Notepad)
+- Nettleser
+
+Å gjøre:
+
+1. Å bygge prosjektet
+- Lage mappastruktur
+- Legge til filer som trengs
+- Koble filer sammen
+
+2. Navigasjonsbaren
+- 2 lenker og et navn/logo
+
+3. Portefølge med deler i rutenett (Portfolio item grid)
+- Bilder
+- Titler
+- Beskrivelser
+- Animasjoner
+- Javascript
+
+4. About side
+- Bilde
+- Delt kolonne layout

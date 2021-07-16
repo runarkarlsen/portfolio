@@ -1,0 +1,135 @@
+/* Master stiler */
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+/* Navigasjon stiler */
+.nav-samler {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+.venstre-side {
+  display: flex;
+}
+.nav-samler > .venstre-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+.nav-lenke-samler {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 1s;
+}
+.aktiv-nav-lenke {
+  border-bottom: 1px solid black;
+}
+.aktiv-nav-lenke a {
+  color: black !important;
+}
+
+.nav-lenke-samler a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 1s;
+}
+
+.nav-lenke-samler:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-lenke-samler a:hover {
+  color: black;
+}
+
+/* Portefølge stiler */
+
+.portfolio-items-samler {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-samler {
+  position: relative;
+}
+
+.portfolio-img-bakgrunn {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+.img-text-samler {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.img-text-samler .undertekst {
+  transition: 1s;
+  color: transparent;
+  font-weight: 600;
+}
+
+.image-blur {
+  font-weight: 600;
+  transition: 1s;
+  filter: brightness(20%);
+}
+
+.img-text-samler:hover .undertekst {
+  font-weight: 600;
+  color: rgb(204, 204, 204);
+}
+
+.logo-samler img {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+  width: 100%;
+}
+
+.profile-content-wrapper {
+  padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+  color: rgb(204, 204, 204);
+}
+/* Om meg stiler */
+
+.two-column-samler {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.profile-image-samler img {
+  width: 100%;
+}
+.profile-content-samler {
+  padding: 30px;
+}
+
+.profile-content-samler h1 {
+  color: rgb(56, 56, 56);
+}
